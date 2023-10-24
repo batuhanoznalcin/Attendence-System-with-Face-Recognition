@@ -16,7 +16,7 @@ import numpy as np
 
 face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml"); #using this file
 
-classifier =load_model(r'C:\Users\UserX\Desktop\Engineering_Project_Coding\emotion_model.h5')   #using this file
+classifier =load_model(r'C:\Users\UserX\Desktop\Engineering_Project_Coding\emotion_model.h5')   #using this file "emotion_model.h5" inside the '' signs path of the emotion_model.h5 should be written
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']    #emotion labels
 
@@ -41,7 +41,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
    
 id = 4 #two persons (e.g. Ali, Veli.....)    25 students that taking the class 
 
-names = ['','Gamze','Meral','Ercan','Batuhan']  #key in names, start from the second place, leave first empty
+names = ['','name1','name2','name3','name4']  #key in names, start from the second place, leave first empty
     
     
 
