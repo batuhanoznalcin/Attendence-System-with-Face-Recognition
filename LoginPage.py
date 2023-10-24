@@ -35,9 +35,9 @@ def SubmitAction(): #function that takes values form textfeilds as variables to 
     else:
         try:    #we are doing connection
             connection = mysql.connector.connect(host='localhost',
-                                                database='advisor',
+                                                database='databasename',
                                                 user='root',
-                                                password='parola')
+                                                password='password')
             if connection.is_connected():
                 db_Info = connection.get_server_info()
                 print("Connected to MySQL Server version ", db_Info)    #if connection is done this message is shown on terminal
