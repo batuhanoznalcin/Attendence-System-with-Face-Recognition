@@ -16,7 +16,7 @@ import numpy as np
 
 face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml"); #using this file
 
-classifier =load_model(r'C:\Users\UserX\Desktop\Engineering_Project_Coding\emotion_model.h5')   #using this file "emotion_model.h5" inside the '' signs path of the emotion_model.h5 should be written
+classifier =load_model(r'C:\Users\UserX\Desktop\Attendence_System_with_Face_Recognition\emotion_model.h5')   #using this file "emotion_model.h5" inside the '' signs path of the emotion_model.h5 should be written
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']    #emotion labels
 
